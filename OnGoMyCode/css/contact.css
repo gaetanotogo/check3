@@ -1,0 +1,142 @@
+.logo a img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.barre ul li {
+    display:inline;
+    padding: 50px;
+} 
+
+.menu li a b {
+    /*position: relative;*/
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
+    float: left;
+
+}
+
+
+.menu li a b :hover {
+    color: red;
+}
+
+.barre{
+    height: 80px;
+    margin-top: -15px;
+    background: linear-gradient(184deg,red,black);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.barre .menu {
+    text-align: center;
+}
+
+.contact {
+    /*position: relative;*/
+    text-align: center;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    /*color: white;*/
+    height: 570px;
+    margin-top: -70px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+.contact h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color:white;
+    padding: 300px;
+
+}
+
+.menu {
+    margin-left: 400px;
+}
+
+.form {
+    text-align: center;
+    padding: 50px;
+}
+
+#name{
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#track{
+    width: 350px;
+    height: 37px;
+    border-block-end-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.opt {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+#email{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    border-block-end-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+}
+
+#phone{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 350px;
+    height: 30px;
+    border-block-end-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: royalblue;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+}
+#submit:hover {
+    border-color: blue;
+    border-radius: 5px;
+}
+
+body{
+    background: linear-gradient(200deg,red,black);
+}
+.form label span b{
+    color: white;
+}

@@ -1,0 +1,135 @@
+/*header {
+    background-color: brown;
+    width: auto;
+    height: auto;
+}
+.cours {
+
+    background: linear-gradient(black,tomato);
+
+}
+#PlusDeCours{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.menu li {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+
+}
+.c
+*/
+
+body{
+    background: linear-gradient(220deg,red,black);
+}
+
+.logo a img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
+
+.barre{
+    height: 80px;
+    margin-top: -15px;
+    background: linear-gradient(184deg,red,black);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.barre ul li {
+    display:inline;
+    padding: 50px;
+} 
+
+.barre .menu {
+    text-align: center;
+    margin-left: 400px;
+}
+
+.menu li a b {
+    /*position: relative;*/
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
+    float: left;
+}
+
+.menu li a b :hover {
+    color: red;
+}
+
+
+.diapo{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -5px;
+}
+
+.listcours {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+
+.listcours .block{
+    display: inline-flex;    
+    width: 20%;
+    /*page-break-inside: auto;*/
+    justify-content: center;
+    padding: 30px;
+    margin-top: -50px;
+
+}
+
+.cours1{
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel.png");
+    height: 250px;
+    width: 250px;
+    /*margin-left: 32%;*/
+    margin-right: -100px;
+}
+
+.cours2{
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel1.png");
+    height: 250px;
+    width: 250px;
+}
+
+.cours3{
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel2.png");
+    height: 250px;
+    width: 250px;
+    margin-left: -40%;
+}
+
+#lien a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blue;
+}
+#lien a:hover {
+    color: white;
+}
+
+.titre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+
+.but{
+    margin-top: 120px;
+}
